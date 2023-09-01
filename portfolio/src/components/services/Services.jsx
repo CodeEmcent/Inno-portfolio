@@ -1,5 +1,4 @@
 import React from 'react'
-import './services.css'
 import { services } from '../../Data'
 import { FaArrowRight } from 'react-icons/fa'
 import shapeTwo from '../../assets/shape-2.png'
@@ -12,6 +11,8 @@ import 'swiper/css/pagination'
 
 // import required modules
 import { Pagination } from 'swiper/modules'
+
+import './services.css'
 
 const Services = () => {
   return (
@@ -40,7 +41,7 @@ const Services = () => {
           },
         }}
         modules={[Pagination]}
-        className='services__container container swiper-wrapper'
+        className='services__container container mySwiper'
       >
         {services.map(({ name, title, description }, index) => {
           return (

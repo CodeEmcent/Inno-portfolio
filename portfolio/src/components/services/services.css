@@ -27,21 +27,21 @@
   margin-bottom: 52px;
 }
 
-.swiper-pagination > .swiper-pagination-bullets {
+.swiper-horizontal > .swiper-pagination-bullets {
   width: auto;
   position: relative;
   display: inline-block;
 }
 
-.swiper-pagination > .swiper-pagination-bullets::before {
+.swiper-horizontal > .swiper-pagination-bullets::before {
   content: '';
   position: absolute;
-  /* align-items: center; */
+  right: 0;
   top: 50%;
-  transform: translateY(50%);
   height: 2px;
-  width: 100%px;
+  width: 100%;
   background-color: var(--title-color);
+  transform: translateY(50%);
   -webkit-transform: translateY(50%);
   -moz-transform: translateY(50%);
   -ms-transform: translateY(50%);
@@ -63,7 +63,8 @@
 }
 
 .swiper-horizontal
-  > .swiper-pagination-bullets.swiper-pagination-bullet:not(:last-child) {
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet:not(:last-child) {
   margin-right: 20px;
 }
 
