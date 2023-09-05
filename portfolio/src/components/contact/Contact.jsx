@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useState } from 'react'
 import {
   FaRegAddressBook,
@@ -19,6 +20,21 @@ const Contact = () => {
     const name = e.target.name
     const value = e.target.value
     setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    axios
+      .post(
+        'https://sheet.best/api/sheets/8165addd-9265-443a-b24a-08cfb4d195fe',
+        form
+      )
+      .then((response) => {
+        console.log(response)
+        // clearing form fields
+        setForm({ name: '', email: '', subject: '', message: '' })
+      })
   }
 
   return (
@@ -67,7 +83,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form action='' className='contact__form'>
+        <form className='contact__form' onSubmit={handleSubmit}>
           <div className='contact__form-group grid'>
             <div className='contact__form-div'>
               <label className='contact__form-tag text-cs'>
@@ -113,7 +129,7 @@ const Contact = () => {
             <label className='contact__form-tag text-cs'>
               Your Message<b>*</b>
             </label>
-            <input
+            <textarea
               name='message'
               onChange={handleChange}
               value={form.message}
