@@ -1,18 +1,28 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { links } from '../../Data'
 import { FaTwitter, FaDribbble, FaBehance } from 'react-icons/fa'
 import { BsSun, BsMoon } from 'react-icons/bs'
 import './header.css'
+import { Link } from 'react-scroll'
+import { animateScroll } from 'react-scroll'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false)
 
+  const scrollTop = () => {
+    animateScroll.scrollToTop()
+  }
+
+  useEffect(() => {
+    document.body.classList.toggle('no-scroll', showMenu)
+  }, [showMenu])
+
   return (
     <header className='header'>
       <nav className='nav'>
-        <a href='#' className='nav__logo text-cs'>
+        <Link to='/' onClick={scrollTop} className='nav__logo text-cs'>
           Emcent
-        </a>
+        </Link>
 
         <div className={`${showMenu ? 'nav__menu show-menu' : 'nav__menu'}`}>
           <div className='nav__data'>
@@ -20,9 +30,18 @@ const Header = () => {
               {links.map(({ name, path }, index) => {
                 return (
                   <li className='nav__item' key={index}>
-                    <a href='#' className='nav__link text-cs'>
+                    <Link
+                      className='nav__link text-cs'
+                      to={path}
+                      spy={true}
+                      hashSpy={true}
+                      smooth={true}
+                      offset={-150}
+                      duration={500}
+                      onClick={() => setShowMenu(!showMenu)}
+                    >
                       {name}
-                    </a>
+                    </Link>
                   </li>
                 )
               })}
@@ -49,7 +68,12 @@ const Header = () => {
             <BsSun />
           </div>
 
-          <div className='nav__toggle' onClick={() => setShowMenu(!showMenu)}>
+          <div
+            className={`${
+              showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'
+            }`}
+            onClick={() => setShowMenu(!showMenu)}
+          >
             <span></span>
             <span></span>
           </div>
