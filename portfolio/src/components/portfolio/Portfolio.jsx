@@ -4,11 +4,14 @@ import List from './List'
 import Items from './Items'
 import { projects } from '../../Data'
 import { AnimatePresence } from 'framer-motion'
+import shapeOne from '../../assets/shape-1.png'
 
 const allNavList = [
   'all',
   ...new Set(projects.map((project) => project.category)),
 ]
+
+console.log(allNavList)
 
 const Portfolio = () => {
   const [projectItems, setMenuItems] = useState(projects)
@@ -40,6 +43,10 @@ const Portfolio = () => {
         <AnimatePresence initial={false}>
           <Items projectItems={projectItems} />
         </AnimatePresence>
+      </div>
+
+      <div className='section__deco deco__right'>
+        <img src={shapeOne} alt='' className='shape' />
       </div>
     </section>
   )
