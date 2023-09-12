@@ -21,6 +21,7 @@
     -ms-transform: translateY(-100px);
     -o-transform: translateY(-100px);
   }
+
   100% {
     transform: translateY(0);
     -webkit-transform: translateY(0);
@@ -51,11 +52,12 @@
   display: flex;
   background-color: var(--bg-color-alt);
   transition: all 1s var(--transition);
-  z-index: 10;
   -webkit-transition: all 1s var(--transition);
   -moz-transition: all 1s var(--transition);
   -ms-transition: all 1s var(--transition);
   -o-transition: all 1s var(--transition);
+  overflow: hidden;
+  z-index: 10;
 }
 
 .show-menu {
@@ -174,4 +176,14 @@
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   bottom: 14px;
+}
+
+.header__deco {
+  left: 75px;
+}
+
+.header__deco .shape {
+  top: -200px;
+  left: -168px;
+  z-index: -1;
 }
