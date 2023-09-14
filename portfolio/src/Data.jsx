@@ -54,30 +54,30 @@ export const services = [
   {
     id: 1,
     name: 'Web Development',
-    title: 'Web Design & Logo',
+    title: 'Web Design & Development',
     description:
-      'Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal.',
+      'Designing the overall blueprint of a website with the vision and feeling of clients. And then crafting the design into a professional website for Businesses, Companies, and Personal use.',
   },
   {
     id: 2,
-    name: ' Apps Development ',
-    title: ' iOS & Android ',
+    name: ' Project Management ',
+    title: ' Achieving Your Deliverables ',
     description:
-      'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
+      'We live in a busy world. Ease your tension and stress with Emcent, for the best deliverables. Do you have an event to plan, a deadline to meet or a target to hit? Do not worry, Emcent can handle that for you.',
   },
   {
     id: 3,
-    name: ' Game Development ',
-    title: ' Unity & Unreal Engine ',
+    name: ' Data Analysis ',
+    title: ' The Real Power of Data ',
     description:
-      ' Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
+      'Every Data contains a unique story that is not immediately read at first contact. With Emcent analytical skills, the hidden message of your data can be unraveled to enable you make informed and powerful decisions.',
   },
   {
     id: 4,
-    name: ' Advertising ',
-    title: ' Google Ads ',
+    name: ' Professional Writing ',
+    title: '  Ideas Rule the World ',
     description:
-      ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
+      ' The art of creative writing is not a small work. Filing a blank page with ideas is so powerful a skill to posses and Emcent is outstanding at this. ',
   },
   {
     id: 5,

@@ -102,13 +102,13 @@
   position: absolute;
   top: 0;
   right: 12px;
-  transform: translateX(8%);
-  -webkit-transform: translateX(8%);
-  -moz-transform: translateX(8%);
-  -ms-transform: translateX(8%);
-  -o-transform: translateX(8%);
-  width: 100%;
-  max-width: 680px;
+  transform: translateY(8%);
+  -webkit-transform: translateY(8%);
+  -moz-transform: translateY(8%);
+  -ms-transform: translateY(8%);
+  -o-transform: translateY(8%);
+  width: 50%;
+  max-width: 600px;
 }
 
 .home__banner {
@@ -126,7 +126,7 @@
 .home__profile {
   position: absolute;
   bottom: 0;
-  height: 800px;
+  height: 750px;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -141,7 +141,7 @@
   box-shadow: var(--shadow);
   padding-inline: 20px;
   width: 250px;
-  height: 82px;
+  height: 72px;
   border-radius: 82px;
   -webkit-border-radius: 82px;
   -moz-border-radius: 82px;
@@ -154,13 +154,13 @@
 }
 
 .home__data-one {
-  bottom: 20%;
+  bottom: 35%;
   left: -4%;
 }
 
 .home__data-two {
-  bottom: 12%;
-  right: 6%;
+  bottom: 30%;
+  right: -5%;
 }
 
 .home__data .text-lg,
@@ -205,10 +205,10 @@
 
 .shape__2 {
   bottom: 8%;
-  left: -16%;
+  left: -6%;
 }
 
 .shape__3 {
-  bottom: 0;
-  right: -2%;
+  bottom: 3%;
+  right: -3%;
 }

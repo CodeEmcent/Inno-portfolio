@@ -3,7 +3,7 @@ import profileImg from '../../assets/profile-img.png'
 import shapeOne from '../../assets/shape-1.png'
 import shapeTwo from '../../assets/shape-2.png'
 
-import { FaTwitter, FaDribbble, FaBehance } from 'react-icons/fa'
+import { FaTwitter, FaDribbble, FaBehance, FaFacebook } from 'react-icons/fa'
 import CV from '../../assets/cv.pdf'
 import './home.css'
 
@@ -13,7 +13,7 @@ const Home = () => {
       <div className='home__wrapper'>
         <div className='home__container container'>
           <p className='home__subtitle text-cs'>
-            Hello, <span>My Name Is</span>
+            Hello, <span>& Welcome to</span>
           </p>
 
           <h1 className='home__title text-cs'>
@@ -21,7 +21,7 @@ const Home = () => {
           </h1>
 
           <p className='home__job'>
-            <span className='text-cs'>I Am</span> <b>Web Developer</b>
+            <span className='text-cs'></span> <b>Front-End Web Developer</b>
           </p>
 
           <div className='home__img-wrapper'>
@@ -35,7 +35,7 @@ const Home = () => {
 
             <p className='home__data home__data-one'>
               <span className='text-lg'>
-                12 <b>+</b>
+                2 <b>+</b>
               </span>
 
               <span className='text-sm text-cs'>
@@ -44,7 +44,7 @@ const Home = () => {
             </p>
 
             <p className='home__data home__data-two'>
-              <span className='text-lg'>330</span>
+              <span className='text-lg'>7</span>
 
               <span className='text-sm text-cs'>
                 Completed <span>Projects</span>
@@ -57,9 +57,9 @@ const Home = () => {
           </div>
 
           <p className='home__text'>
-            From Lagos, Nigeria. I have rich experience in web design, also I am
-            good at worddpress. I love to talk with you about our unique
-            projects.
+            From Lagos, Nigeria. A philosophy graduate with extensive expertise
+            and talents in Project Management, Data Analysis, and Web
+            Development😀. Check out some of my intriguing projects to discover more about me if you're interested.
           </p>
 
           <div className='home__socials'>
@@ -73,6 +73,10 @@ const Home = () => {
 
             <a href='#' className='home__social-link'>
               <FaBehance />
+            </a>
+            
+            <a href='#' className='home__social-link'>
+              <FaFacebook />
             </a>
           </div>
 

@@ -107,7 +107,7 @@
   opacity: 1;
 }
 
-.light-theme .bg__title{
+.light-theme .bg__title {
   color: rgba(0, 0, 0, 0.02);
 }
 
@@ -274,7 +274,7 @@ img {
 }
 
 .section {
-  padding-bottom: 150px;
+  padding-bottom: 130px;
   position: relative;
 }
 
