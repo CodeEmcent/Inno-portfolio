@@ -1,15 +1,15 @@
-import Project1 from './assets/project1.jpeg';
-import Project2 from './assets/project2.jpg';
-import Project3 from './assets/project3.jpeg';
-import Project4 from './assets/project4.jpeg';
-import Project5 from './assets/project5.jpg';
-import Project6 from './assets/project6.jpg';
+import Project1 from './assets/project1.jpeg'
+import Project2 from './assets/project2.jpg'
+import Project3 from './assets/project3.jpeg'
+import Project4 from './assets/project4.jpeg'
+import Project5 from './assets/project5.jpg'
+import Project6 from './assets/project6.jpg'
 
-import Testimonial1 from './assets/testimonial1.jpg';
-import Testimonial2 from './assets/testimonial2.jpg';
-import Testimonial3 from './assets/testimonial3.jpg';
-import Testimonial4 from './assets/testimonial4.jpg';
-import Testimonial5 from './assets/testimonial5.jpg';
+import Testimonial1 from './assets/testimonial1.jpg'
+import Testimonial2 from './assets/testimonial2.jpg'
+import Testimonial3 from './assets/testimonial3.jpg'
+import Testimonial4 from './assets/testimonial4.jpg'
+import Testimonial5 from './assets/testimonial5.jpg'
 
 export const links = [
   {
@@ -48,45 +48,45 @@ export const links = [
     name: 'Contact',
     path: 'contact',
   },
-];
+]
 
 export const services = [
   {
     id: 1,
-    name: 'Web Development',
-    title: 'Web Design & Development',
+    name: ' UI/UX Design ',
+    title: ' DesignEmcent ',
     description:
-      'Designing the overall blueprint of a website with the vision and feeling of clients. And then crafting the design into a professional website for Businesses, Companies, and Personal use.',
+      "Designing good User Interface and nicely integrating it into an app to increase User Experience. At DesignEmcent, the principles of UI/UX are meticulously applied to the work of design for the best app's impression",
   },
   {
     id: 2,
-    name: ' Project Management ',
-    title: ' Achieving Your Deliverables ',
+    name: 'Web Development',
+    title: 'CodeEmcent',
     description:
-      'We live in a busy world. Ease your tension and stress with Emcent, for the best deliverables. Do you have an event to plan, a deadline to meet or a target to hit? Do not worry, Emcent can handle that for you.',
+      'Do you need your presence online via a professional website for your Business, Company, or Personal use? At CodeEmcent, we are tasked with developing the best web app that meets clients needs with best web technologies.',
   },
   {
     id: 3,
-    name: ' Data Analysis ',
-    title: ' The Real Power of Data ',
+    name: ' Project Management ',
+    title: ' ProjectEmcent ',
     description:
-      'Every Data contains a unique story that is not immediately read at first contact. With Emcent analytical skills, the hidden message of your data can be unraveled to enable you make informed and powerful decisions.',
+      'We live in a busy world. Ease your tension and stress with ProjectEmcent, for the best deliverables. Do you have an event to plan, a deadline to meet or a target to hit? ProjectEmcent can achieve your deliverables.',
   },
   {
     id: 4,
-    name: ' Professional Writing ',
-    title: '  Ideas Rule the World ',
+    name: ' Data Analysis ',
+    title: ' DataEmcent ',
     description:
-      ' The art of creative writing is not a small work. Filing a blank page with ideas is so powerful a skill to posses and Emcent is outstanding at this. ',
+      'Every Data contains a unique story that is not immediately read at first contact and that is the real power of data. With DataEmcent analytical skills, the hidden message of your data can be unraveled to enable you make informed decisions.',
   },
   {
     id: 5,
-    name: ' Music Writing ',
-    title: ' Sound Track ',
+    name: ' Professional Writing ',
+    title: '  PenEmcent ',
     description:
-      'Music copying, writing, creating, transcription and composition services.',
+      ' The art of creative writing is not a small work. To compose and fil a blank page with lots of good ideas is a great and powerful skill. With PenEmcent Professional Writing Services, you are sure of an original and intriguing ideas.',
   },
-];
+]
 
 export const skills = [
   {
@@ -136,7 +136,7 @@ export const skills = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
-];
+]
 
 export const projects = [
   {
@@ -187,7 +187,7 @@ export const projects = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
-];
+]
 
 export const cv = [
   {
@@ -249,7 +249,7 @@ export const cv = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     category: 'experience',
   },
-];
+]
 
 export const testimonials = [
   {
@@ -292,4 +292,4 @@ export const testimonials = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
-];
+]

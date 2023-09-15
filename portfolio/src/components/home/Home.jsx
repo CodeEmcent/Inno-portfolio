@@ -17,7 +17,7 @@ const Home = () => {
           </p>
 
           <h1 className='home__title text-cs'>
-            <span>Code</span> Emcent
+            <span>Em</span>cent
           </h1>
 
           <p className='home__job'>

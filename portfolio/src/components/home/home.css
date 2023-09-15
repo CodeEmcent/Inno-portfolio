@@ -1,6 +1,6 @@
 .home {
   background-image: var(--first-gradient);
-  padding-bottom: 180px;
+  padding-bottom: 150px;
 }
 
 .home,
@@ -102,11 +102,11 @@
   position: absolute;
   top: 0;
   right: 12px;
-  transform: translateY(8%);
-  -webkit-transform: translateY(8%);
-  -moz-transform: translateY(8%);
-  -ms-transform: translateY(8%);
-  -o-transform: translateY(8%);
+  transform: translateY(5%);
+  -webkit-transform: translateY(5%);
+  -moz-transform: translateY(5%);
+  -ms-transform: translateY(5%);
+  -o-transform: translateY(5%);
   width: 50%;
   max-width: 600px;
 }
