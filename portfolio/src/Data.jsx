@@ -91,34 +91,34 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: 'PHP',
-    percentage: 85,
+    name: 'Microsoft Office Suite',
+    percentage: 95,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'For professional research, report, writing, editing & presentation using word editing applications like Word and PowerPoint etc.',
   },
 
   {
     id: 2,
     name: 'JavaScript',
-    percentage: 75,
+    percentage: 65,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'A core scripting language & technology essentially used to add interactive effect in web pages, applications, servers etc.',
   },
 
   {
     id: 3,
     name: 'WordPress',
-    percentage: 90,
+    percentage: 70,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'An easy to use web content management system for creating and publishing  blogging, e-commerce, business and portfolio pages or websites.',
   },
 
   {
     id: 4,
-    name: 'Python',
-    percentage: 75,
+    name: 'Data Management',
+    percentage: 85,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Collection, organization, protection, and storage of data for analysis with SQL, R, Spreadsheet, BigQuery Sandbox, Tableau, Power BI.',
   },
 
   {
@@ -126,15 +126,15 @@ export const skills = [
     name: 'React',
     percentage: 70,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'An awesome front-end javascript library for development of smart web user interfaces based on components.',
   },
 
   {
     id: 6,
-    name: 'Adobe XD',
+    name: 'Project Management',
     percentage: 80,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Ability to solve problems and achieve valuable tasks and deliverables according specific business parameters and objectives.',
   },
 ]
 
