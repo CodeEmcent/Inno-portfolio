@@ -1,9 +1,9 @@
 import Project1 from './assets/project1.jpeg'
-import Project2 from './assets/project2.jpg'
+import Project2 from './assets/project2.jpeg'
 import Project3 from './assets/project3.jpeg'
 import Project4 from './assets/project4.jpeg'
-import Project5 from './assets/project5.jpg'
-import Project6 from './assets/project6.jpg'
+import Project5 from './assets/project5.jpeg'
+import Project6 from './assets/project6.jpeg'
 
 import Testimonial1 from './assets/testimonial1.jpg'
 import Testimonial2 from './assets/testimonial2.jpg'
@@ -94,7 +94,7 @@ export const skills = [
     name: 'Microsoft Office Suite',
     percentage: 95,
     description:
-      'For professional research, report, writing, editing & presentation using word editing applications like Word and PowerPoint etc.',
+      'For professional documentation, research, report, editing using the best word editing applications like Word and presentation tools like PowerPoint etc.',
   },
 
   {
@@ -102,7 +102,7 @@ export const skills = [
     name: 'JavaScript',
     percentage: 65,
     description:
-      'A core scripting language & technology essentially used to add interactive effect in web pages, applications, servers etc.',
+      'A core scripting language & technology essentially used for adding interactive effects and real sensations in web pages, applications, servers etc.',
   },
 
   {
@@ -110,7 +110,7 @@ export const skills = [
     name: 'WordPress',
     percentage: 70,
     description:
-      'An easy to use web content management system for creating and publishing  blogging, e-commerce, business and portfolio pages or websites.',
+      'An easy to use web content management system for creating and publishing blogging, e-commerce, business and portfolio pages or websites.',
   },
 
   {
@@ -166,7 +166,7 @@ export const projects = [
   {
     id: 4,
     img: Project4,
-    category: 'Photography',
+    category: 'Writing',
     title: 'Mozar',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
