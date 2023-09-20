@@ -36,10 +36,10 @@ export const links = [
     name: 'Testimonials',
     path: 'testimonial',
   },
-  {
-    name: 'Pricing',
-    path: 'pricing',
-  },
+  // {
+  //   name: 'Pricing',
+  //   path: 'pricing',
+  // },
   // {
   //   name: 'Blog',
   //   path: 'blog',
