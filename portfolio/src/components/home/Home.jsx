@@ -3,7 +3,13 @@ import profileImg from '../../assets/profile-img.png'
 import shapeOne from '../../assets/shape-1.png'
 import shapeTwo from '../../assets/shape-2.png'
 
-import { FaTwitter, FaDribbble, FaBehance, FaFacebook } from 'react-icons/fa'
+import {
+  FaTwitter,
+  FaDribbble,
+  FaBehance,
+  FaFacebook,
+  FaGithub,
+} from 'react-icons/fa'
 import CV from '../../assets/cv.pdf'
 import './home.css'
 
@@ -59,7 +65,8 @@ const Home = () => {
           <p className='home__text'>
             From Lagos, Nigeria. A philosophy graduate with extensive expertise
             and talents in Project Management, Data Analysis, and Web
-            Development😀. Check out some of my intriguing projects to discover more about me if you're interested.
+            Development😀. Check out some of my intriguing projects to discover
+            more about me if you're interested.
           </p>
 
           <div className='home__socials'>
@@ -74,9 +81,17 @@ const Home = () => {
             <a href='#' className='home__social-link'>
               <FaBehance />
             </a>
-            
+
             <a href='#' className='home__social-link'>
               <FaFacebook />
+            </a>
+
+            <a
+              href='https://github.com/CodeEmcent'
+              target='_blank'
+              className='home__social-link'
+            >
+              <FaGithub />
             </a>
           </div>
 
