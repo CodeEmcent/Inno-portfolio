@@ -102,7 +102,7 @@ export const skills = [
     name: 'JavaScript',
     percentage: 65,
     description:
-      'A core scripting language & technology essentially used for adding interactive effects and real sensations in web pages, applications, servers etc.',
+      'A core programming/scripting language & technology essentially used for adding interactive effects and real sensations in web pages, applications, servers etc.',
   },
 
   {
@@ -110,7 +110,7 @@ export const skills = [
     name: 'WordPress',
     percentage: 70,
     description:
-      'An easy to use web content management system for creating and publishing blogging, e-commerce, business and portfolio pages or websites.',
+      'An easy to use web content management system for creating and publishing blogging, e-commerce, business and personal portfolio pages or websites etc.',
   },
 
   {
@@ -143,7 +143,7 @@ export const projects = [
     id: 1,
     img: Project1,
     category: 'Branding',
-    title: 'Zorro',
+    title: 'Emcent Food App',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -151,7 +151,7 @@ export const projects = [
     id: 2,
     img: Project2,
     category: 'UI UX Design',
-    title: 'Gooir',
+    title: 'Cacashi Delish',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -159,7 +159,7 @@ export const projects = [
     id: 3,
     img: Project3,
     category: 'Development',
-    title: 'Explore',
+    title: 'Emcent Perspective',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -167,7 +167,7 @@ export const projects = [
     id: 4,
     img: Project4,
     category: 'Writing',
-    title: 'Mozar',
+    title: 'The Question of Social Conscience',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -175,7 +175,7 @@ export const projects = [
     id: 5,
     img: Project5,
     category: 'Development',
-    title: 'Stay Fit',
+    title: 'Emcent Portfolio',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -183,7 +183,7 @@ export const projects = [
     id: 6,
     img: Project6,
     category: 'Branding',
-    title: 'Kana',
+    title: 'Emcent Food App 2',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
   },
@@ -192,31 +192,29 @@ export const projects = [
 export const cv = [
   {
     id: 1,
-    title: 'CoderHouse Courses',
-    subtitle: 'Backend Programming',
-    date: '2014 - 2016',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    title: 'Bachelor of Arts',
+    subtitle: 'Imo State University, Owerri, Nigeria',
+    date: '2011 - 2015',
+    description: "Obtained a Bachelor's Degree of Arts (B.A.) in Philosophy.",
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Lviv National Academy of Arts',
-    subtitle: 'Faculty of Design',
-    date: '2012 - 2014',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    title: 'Bachelor of Philosoph',
+    subtitle: 'Pontifical Urbaniana University, Rome, Italy',
+    date: '2011 - 2015',
+    description: "Obtained a Bachelor's Degree of Philosophy (B.Phil.) in Philosophy.",
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'IT Future',
+    title: 'St. Peter Claver Seminary, Owerri, Nigeria',
     subtitle: 'High School',
-    date: '2010 - 2012',
+    date: '2007 - 2010',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Obtained the West African Examination Council Certificate (WAEC) and the National Examination Council Certificate (NECO).',
     category: 'education',
   },
 

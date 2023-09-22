@@ -8,7 +8,9 @@ const Skills = () => {
     <section className='skills section' id='skills'>
       <h2 className='section__title text-cs'>Professional Skills</h2>
       <p className='section__subtitle'>
-        My <span>Talents</span>
+        Talents<span>&</span>
+        <span></span>
+        proficiency
       </p>
 
       <div className='skills__container container grid'>
