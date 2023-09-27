@@ -6,6 +6,7 @@ import { projects } from '../../Data'
 import { AnimatePresence } from 'framer-motion'
 import shapeOne from '../../assets/shape-1.png'
 
+
 const allNavList = [
   'all',
   ...new Set(projects.map((project) => project.category)),

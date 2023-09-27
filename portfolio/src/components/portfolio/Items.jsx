@@ -2,6 +2,8 @@ import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 import shapeTwo from '../../assets/shape-2.png'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import Pricing from '../../pages/pricing/Pricing'
 
 const Items = ({ projectItems }) => {
   return (
@@ -27,10 +29,10 @@ const Items = ({ projectItems }) => {
             <h3 className='portfolio__title'>{title}</h3>
             <p className='portfolio__description'>{description}</p>
 
-            <a href='#pricing' className='link'>
+            <Link to='pricing' element={<Pricing />} className='link'>
               See Pricing
               <FaArrowRight className='link__icon' />
-            </a>
+            </Link>
 
             <img src={shapeTwo} alt='' className='shape c__shape' />
           </motion.div>

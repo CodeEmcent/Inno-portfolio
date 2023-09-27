@@ -204,7 +204,8 @@ export const cv = [
     title: 'Bachelor of Philosoph',
     subtitle: 'Pontifical Urbaniana University, Rome, Italy',
     date: '2011 - 2015',
-    description: "Obtained a Bachelor's Degree of Philosophy (B.Phil.) in Philosophy.",
+    description:
+      "Obtained a Bachelor's Degree of Philosophy (B.Phil.) in Philosophy.",
     category: 'education',
   },
 
@@ -256,7 +257,7 @@ export const testimonials = [
     name: 'Barbara Wilson',
     author: 'CEO Company',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'I recommend Emcent anyday and anytime for those seeking to improve their business applications.',
   },
   {
     id: 2,
@@ -264,7 +265,7 @@ export const testimonials = [
     name: 'Charlie Smith',
     author: 'Designer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Emcent has engered a sense of confidence for my online presence especially my web application. I love Emcent services.',
   },
   {
     id: 3,
@@ -272,7 +273,7 @@ export const testimonials = [
     name: 'Roy Wang',
     author: 'Manager GYM',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'I declare that CodeEmcent remains a complete technological suit for every business out there. Make sure you expeience Emcent',
   },
   {
     id: 4,
