@@ -63,9 +63,8 @@ const Home = () => {
           </div>
 
           <p className='home__text'>
-            From Lagos, Nigeria. A philosophy graduate with extensive expertise
-            and talents in Project Management, Data Analysis, and Web
-            Development😀. Check out some of my intriguing projects to discover
+            From Lagos, Nigeria. A Philosopher, Writer, Project Manager, Data Analyst, and Web
+            Developer. Check out some of my intriguing projects to discover
             more about me if you're interested.
           </p>
 

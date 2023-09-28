@@ -37,7 +37,8 @@
   min-height: 110px;
 }
 
-.testimonial__name {
+.testimonials__name {
+  color: var(--primary-color);
   font-size: var(--largest-font-size);
   margin-top: 30px;
 }

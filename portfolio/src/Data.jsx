@@ -281,7 +281,7 @@ export const testimonials = [
     name: 'Jennifer Smith',
     author: 'CEO & Founder',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'It has been an interesting business relationship with Emcent. There is a level of competence that I admire at all there jobs and they have never disappointed.',
   },
   {
     id: 5,
@@ -289,6 +289,6 @@ export const testimonials = [
     name: 'Paul Freeman',
     author: 'Photographer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Emcent is simply among the best out there. Great association and collection of progressive minds and talents.',
   },
 ]
