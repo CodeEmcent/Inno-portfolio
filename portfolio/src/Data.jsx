@@ -20,6 +20,10 @@ export const links = [
     name: 'Services',
     path: 'services',
   },
+  // {
+  //   name: 'Services',
+  //   path: 'services',
+  // },
   {
     name: 'Skills',
     path: 'skills',
@@ -27,10 +31,6 @@ export const links = [
   {
     name: 'Works',
     path: 'work',
-  },
-  {
-    name: 'Resume',
-    path: 'resume',
   },
   {
     name: 'Testimonials',
@@ -50,43 +50,43 @@ export const links = [
   },
 ]
 
-export const services = [
-  {
-    id: 1,
-    name: ' UI/UX Design ',
-    title: ' DesignEmcent ',
-    description:
-      "Designing good User Interface and nicely integrating it into an app to increase User Experience. At DesignEmcent, the principles of UI/UX are meticulously applied to the work of design for the best app's impression",
-  },
-  {
-    id: 2,
-    name: 'Web Development',
-    title: 'CodeEmcent',
-    description:
-      'Do you need your presence online via a professional website for your Business, Company, or Personal use? At CodeEmcent, we are tasked with developing the best web app that meets clients needs with best web technologies.',
-  },
-  {
-    id: 3,
-    name: ' Project Management ',
-    title: ' ProjectEmcent ',
-    description:
-      'We live in a busy world. Ease your tension and stress with ProjectEmcent, for the best deliverables. Do you have an event to plan, a deadline to meet or a target to hit? ProjectEmcent can achieve your deliverables.',
-  },
-  {
-    id: 4,
-    name: ' Data Analysis ',
-    title: ' DataEmcent ',
-    description:
-      'Every Data contains a unique story that is not immediately read at first contact and that is the real power of data. With DataEmcent analytical skills, the hidden message of your data can be unraveled to enable you make informed decisions.',
-  },
-  {
-    id: 5,
-    name: ' Professional Writing ',
-    title: '  PenEmcent ',
-    description:
-      ' The art of creative writing is not a small work. To compose and fil a blank page with lots of good ideas is a great and powerful skill. With PenEmcent Professional Writing Services, you are sure of an original and intriguing ideas.',
-  },
-]
+// export const services = [
+//   {
+//     id: 1,
+//     name: ' UI/UX Design ',
+//     title: ' DesignEmcent ',
+//     description:
+//       "Designing good User Interface and nicely integrating it into an app to increase User Experience. At DesignEmcent, the principles of UI/UX are meticulously applied to the work of design for the best app's impression",
+//   },
+//   {
+//     id: 2,
+//     name: 'Web Development',
+//     title: 'CodeEmcent',
+//     description:
+//       'Do you need your presence online via a professional website for your Business, Company, or Personal use? At CodeEmcent, we are tasked with developing the best web app that meets clients needs with best web technologies.',
+//   },
+//   {
+//     id: 3,
+//     name: ' Project Management ',
+//     title: ' ProjectEmcent ',
+//     description:
+//       'We live in a busy world. Ease your tension and stress with ProjectEmcent, for the best deliverables. Do you have an event to plan, a deadline to meet or a target to hit? ProjectEmcent can achieve your deliverables.',
+//   },
+//   {
+//     id: 4,
+//     name: ' Data Analysis ',
+//     title: ' DataEmcent ',
+//     description:
+//       'Every Data contains a unique story that is not immediately read at first contact and that is the real power of data. With DataEmcent analytical skills, the hidden message of your data can be unraveled to enable you make informed decisions.',
+//   },
+//   {
+//     id: 5,
+//     name: ' Professional Writing ',
+//     title: '  PenEmcent ',
+//     description:
+//       ' The art of creative writing is not a small work. To compose and fil a blank page with lots of good ideas is a great and powerful skill. With PenEmcent Professional Writing Services, you are sure of an original and intriguing ideas.',
+//   },
+// ]
 
 export const skills = [
   {
@@ -189,63 +189,124 @@ export const projects = [
   },
 ]
 
+// export const cv = [
+//   {
+//     id: 1,
+//     title: 'Bachelor of Arts',
+//     subtitle: 'Imo State University, Owerri, Nigeria',
+//     date: '2011 - 2015',
+//     description: "Obtained a Bachelor's Degree of Arts (B.A.) in Philosophy.",
+//     category: 'education',
+//   },
+
+//   {
+//     id: 2,
+//     title: 'Bachelor of Philosoph',
+//     subtitle: 'Pontifical Urbaniana University, Rome, Italy',
+//     date: '2011 - 2015',
+//     description:
+//       "Obtained a Bachelor's Degree of Philosophy (B.Phil.) in Philosophy.",
+//     category: 'education',
+//   },
+
+//   {
+//     id: 3,
+//     title: 'St. Peter Claver Seminary, Owerri, Nigeria',
+//     subtitle: 'High School',
+//     date: '2007 - 2010',
+//     description:
+//       'Obtained the West African Examination Council Certificate (WAEC) and the National Examination Council Certificate (NECO).',
+//     category: 'education',
+//   },
+
+//   {
+//     id: 4,
+//     title: 'UI Head & Manager',
+//     subtitle: 'Soft Tech Inc.',
+//     date: '2020 - PRESENT',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+//     category: 'experience',
+//   },
+
+//   {
+//     id: 5,
+//     title: 'UI / UX Specialist',
+//     subtitle: 'Kana Design Studio',
+//     date: '2018 - 2020',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+//     category: 'experience',
+//   },
+
+//   {
+//     id: 6,
+//     title: 'Plugins Developer',
+//     subtitle: 'Fiverr.com',
+//     date: '2016 - 2018',
+//     description:
+//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+//     category: 'experience',
+//   },
+// ]
+
 export const cv = [
   {
     id: 1,
-    title: 'Bachelor of Arts',
-    subtitle: 'Imo State University, Owerri, Nigeria',
-    date: '2011 - 2015',
-    description: "Obtained a Bachelor's Degree of Arts (B.A.) in Philosophy.",
+    title: 'DesignEmcent',
+    subtitle: 'UI/UX Design',
+    read: 'see more',
+    description:
+      "Designing good User Interface and nicely integrating it into an app to increase User Experience. At DesignEmcent, the principles of UI/UX are meticulously applied to the work of design for the best app's impression.",
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Bachelor of Philosoph',
-    subtitle: 'Pontifical Urbaniana University, Rome, Italy',
-    date: '2011 - 2015',
+    title: 'CodeEmcent',
+    subtitle: 'Web Development',
+    read: 'see more',
     description:
-      "Obtained a Bachelor's Degree of Philosophy (B.Phil.) in Philosophy.",
+      'Do you need your presence online via a professional website for your Business, Company, or Personal use? At CodeEmcent, we are tasked with developing the best web app that meets clients needs with best web technologies.',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'St. Peter Claver Seminary, Owerri, Nigeria',
-    subtitle: 'High School',
-    date: '2007 - 2010',
+    title: 'ProjectEmcent',
+    subtitle: 'Project Management',
+    read: 'see more',
     description:
-      'Obtained the West African Examination Council Certificate (WAEC) and the National Examination Council Certificate (NECO).',
+      'We live in a busy world. Ease your tension and stress with ProjectEmcent, for the best deliverables. Do you have an event to plan, a deadline to meet or a target to hit? ProjectEmcent can achieve your deliverables.',
     category: 'education',
   },
 
   {
     id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
-    date: '2020 - PRESENT',
+    title: 'DataEmcent',
+    subtitle: 'Data Analysis',
+    read: 'see more',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Every Data contains a unique story that is not immediately read at first contact and that is the real power of data. With DataEmcent analytical skills, the hidden message of your data can be unraveled to enable you make informed decisions.',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
+    title: 'PenEmcent',
+    subtitle: 'Professional Writing',
+    read: 'see more',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'The art of creative writing is not a small work. To compose and fil a blank page with lots of good ideas is a great and powerful skill. With PenEmcent Professional Writing Services, you are sure of an original and intriguing ideas.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Plugins Developer',
-    subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    title: 'DocEmcent',
+    subtitle: 'Emcent Archive',
+    read: 'see more',
+    description: 'For a comprehensive documentation of Everthing Emcent.',
     category: 'experience',
   },
 ]

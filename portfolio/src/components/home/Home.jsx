@@ -111,7 +111,7 @@ const Home = () => {
       </div>
 
       <div className='section__bg-wrapper'>
-        <span className='bg__title'>Web Development</span>
+        <span className='bg__title'>Development</span>
       </div>
     </section>
   )

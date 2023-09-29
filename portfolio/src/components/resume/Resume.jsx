@@ -6,15 +6,16 @@ import shapeOne from '../../assets/shape-1.png'
 
 const Resume = () => {
   return (
-    <section className='resume section' id='resume'>
-      <h2 className='section__title text-cs'>Resume</h2>
+    <section className='resume section' id='services'>
+      <h2 className='section__title text-cs'>What I Do</h2>
       <p className='section__subtitle'>
-        My <span>Story</span>
+        Products<span>&</span>
+        <span></span> Services
       </p>
 
       <div className='resume__container container grid'>
         <div className='resume__group'>
-          <h3 className='resume__heading'>Education</h3>
+          {/* <h3 className='resume__heading'>Education</h3> */}
 
           <div className='resume__items'>
             {cv.map((val, id) => {
@@ -23,8 +24,8 @@ const Resume = () => {
                   <Card
                     key={id}
                     title={val.title}
-                    subtitlt={val.subtitle}
-                    date={val.date}
+                    subtitle={val.subtitle}
+                    read={val.read}
                     description={val.description}
                   />
                 )
@@ -34,7 +35,7 @@ const Resume = () => {
         </div>
 
         <div className='resume__group'>
-          <h3 className='resume__heading'>Experience</h3>
+          {/* <h3 className='resume__heading'>Experience</h3> */}
 
           <div className='resume__items'>
             {cv.map((val, id) => {
@@ -43,8 +44,8 @@ const Resume = () => {
                   <Card
                     key={id}
                     title={val.title}
-                    subtitlt={val.subtitle}
-                    date={val.date}
+                    subtitle={val.subtitle}
+                    read={val.read}
                     description={val.description}
                   />
                 )
@@ -59,7 +60,7 @@ const Resume = () => {
       </div>
 
       <div className='section__bg-wrapper'>
-        <span className='bg__title'>Resume</span>
+        <span className='bg__title bg__resume'>Services</span>
       </div>
     </section>
   )
