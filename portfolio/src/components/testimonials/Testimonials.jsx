@@ -69,7 +69,7 @@ const Testimonials = () => {
         })}
       </Swiper>
 
-      <div className='section__deco deco__right'>
+      <div className='section__deco deco__left'>
         <img src={shapeOne} alt='' className='shape' />
       </div>
 

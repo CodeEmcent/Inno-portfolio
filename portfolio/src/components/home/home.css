@@ -102,13 +102,13 @@
   position: absolute;
   top: 0;
   right: 12px;
-  transform: translateY(5%);
-  -webkit-transform: translateY(5%);
-  -moz-transform: translateY(5%);
-  -ms-transform: translateY(5%);
-  -o-transform: translateY(5%);
+  transform: translateY(8%);
+  -webkit-transform: translateY(8%);
+  -moz-transform: translateY(8%);
+  -ms-transform: translateY(8%);
+  -o-transform: translateY(8%);
   width: 50%;
-  max-width: 600px;
+  max-width: 550px;
 }
 
 .home__banner {
@@ -126,12 +126,12 @@
 .home__profile {
   position: absolute;
   bottom: 0;
-  height: 750px;
-  border-radius: 500px;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  -ms-border-radius: 500px;
-  -o-border-radius: 500px;
+  height: 700px;
+  border-radius: 300px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  -ms-border-radius: 300px;
+  -o-border-radius: 300px;
   object-fit: cover;
 }
 
