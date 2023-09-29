@@ -145,15 +145,14 @@ export const projects = [
     category: 'Branding',
     title: 'Emcent Food App',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'A brand of mobile application design for a future HotelEmcent.',
   },
   {
     id: 2,
     img: Project2,
     category: 'UI UX Design',
     title: 'Cacashi Delish',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    description: 'A resturant website for Cacashi Delicious meals.',
   },
   {
     id: 3,
@@ -161,7 +160,7 @@ export const projects = [
     category: 'Development',
     title: 'Emcent Perspective',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'For exchange of ideas and thoughts for all. A website of ideology.',
   },
   {
     id: 4,
@@ -169,7 +168,7 @@ export const projects = [
     category: 'Writing',
     title: 'The Question of Social Conscience',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'An Emcent pulication that advocates for the formation of social conscience.',
   },
   {
     id: 5,
@@ -177,7 +176,7 @@ export const projects = [
     category: 'Development',
     title: 'Emcent Portfolio',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'An official portfolio website designed and launched for Emcent by CodeEmcent.',
   },
   {
     id: 6,
