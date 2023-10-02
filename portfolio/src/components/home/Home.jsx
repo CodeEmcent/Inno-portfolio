@@ -39,7 +39,7 @@ const Home = () => {
               />
             </div>
 
-            <p className='home__data home__data-one'>
+            {/* <p className='home__data home__data-one'>
               <span className='text-lg'>
                 2 <b>+</b>
               </span>
@@ -55,7 +55,7 @@ const Home = () => {
               <span className='text-sm text-cs'>
                 Completed <span>Projects</span>
               </span>
-            </p>
+            </p> */}
 
             <img src={shapeOne} alt='' className='shape shape__1' />
             <img src={shapeTwo} alt='' className='shape shape__2' />

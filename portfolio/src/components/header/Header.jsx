@@ -101,7 +101,6 @@ const Header = () => {
             <img src={shapeOne} alt='' className='shape' />
           </div>
         </div>
-
         <div className='nav__btns'>
           <div className='theme__toggler' onClick={toggleTheme}>
             {theme === 'light-theme' ? <BsMoon /> : <BsSun />}

@@ -1,6 +1,7 @@
 .pricing {
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: var(--third-gradient);
+  max-height: 80vh;
 }
 
 .pricing__container {
@@ -64,7 +65,7 @@
 
 .pricing__description {
   padding-bottom: 30px;
-  min-height: 145px;
+  max-height: 145px;
 }
 
 .pricing__list {

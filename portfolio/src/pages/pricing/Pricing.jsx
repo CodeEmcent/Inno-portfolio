@@ -19,13 +19,12 @@ const Pricing = () => {
           <div className='pricing__item card card-one'>
             <span className='pricing__subtitle text-cs'>Hourly Basis</span>
             <h3 className='pricing__price'>
-              39 <span>$</span>
+              19 <span>$</span>
               <em>Hour</em>
             </h3>
             <p className='pricing__description'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              quam animi iusto ipsam quidem magnam, dolor numquam, esse
-              reiciendis iste explicabo vitae ducimus eligendi.
+              For urgent craft and design of an interesting brand with a unique visual identity to make ou standout and developing a website for personal or cooperate
+              business.
             </p>
 
             <ul className='pricing__list'>
@@ -61,13 +60,14 @@ const Pricing = () => {
             <div className='pricing__item card card-one'>
               <span className='pricing__subtitle text-cs'>Freelancing</span>
               <h3 className='pricing__price'>
-                259 <span>$</span>
+                95 <span>$</span>
                 <em>Week</em>
               </h3>
               <p className='pricing__description'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia quam animi iusto ipsam quidem magnam, dolor numquam,
-                esse reiciendis iste explicabo vitae ducimus eligendi.
+                Are you interested in crafting and designing an interesting
+                brand's with unique visual identity or developing a website for
+                personal or cooperate business or advertising your presence
+                on/through Emcent?
               </p>
 
               <ul className='pricing__list'>
@@ -104,13 +104,14 @@ const Pricing = () => {
           <div className='pricing__item card card-one'>
             <span className='pricing__subtitle text-cs'>Full Time</span>
             <h3 className='pricing__price'>
-              1,249 <span>$</span>
+              430 <span>$</span>
               <em>Monthly</em>
             </h3>
             <p className='pricing__description'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              quam animi iusto ipsam quidem magnam, dolor numquam, esse
-              reiciendis iste explicabo vitae ducimus eligendi.
+              For crafting and designing unique brands or developing a website
+              for personal or cooperate business or advertising your presence
+              on/through Emcent or covering your event or managing your visual
+              archive?
             </p>
 
             <ul className='pricing__list'>
